@@ -14,9 +14,8 @@ author: SIKKA
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Author's home: "https://deanattali.com"
-  Resources: ""
+
+  Resources:
     - Beautiful Jekyll: "https://king860810.github.io/beautiful-jekyll"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
@@ -119,7 +118,7 @@ footer-link-col: "#404040"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
-#  - "/assets/css/custom-styles.css"
+ - "/assets/css/home.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
