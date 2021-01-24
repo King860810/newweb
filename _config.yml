@@ -1,4 +1,4 @@
-# Welcome
+# Welcome to Beautiful Jekyll!
 # This config file is meant for settings that affect your entire website. When you first
 # set up your website you should go through all these settings and edit them, but after
 # the initial set up you won't need to come back to this file often.
@@ -6,17 +6,18 @@
 # --- Required options --- #
 
 # Name of website
-title: SIKKA
+title: My Website
 
 # Your name to show in the footer
-author: SIKKA
+author: Some Person
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-
+  About Me: "aboutme"
+  About Me2: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://king860810.github.io/beautiful-jekyll"
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
 
@@ -24,7 +25,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/bgimage.png"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -64,7 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a Sikka
+rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
@@ -89,7 +90,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "sikka,keywords"
+#keywords: "my,list,of,keywords"
 
 # --- Colours / background image --- #
 
@@ -118,7 +119,7 @@ footer-link-col: "#404040"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
- - "/assets/css/home.css"
+#  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -228,4 +229,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
