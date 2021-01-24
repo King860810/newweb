@@ -14,7 +14,7 @@ author: SIKKA
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+
   Resources: ""
     - Beautiful Jekyll: "https://king860810.github.io/beautiful-jekyll"
     - Learn markdown: "https://www.markdowntutorial.com/"
