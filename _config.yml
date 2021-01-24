@@ -15,7 +15,7 @@ author: SIKKA
 
 navbar-links:
 
-  Resources: ""
+  Resources:
     - Beautiful Jekyll: "https://king860810.github.io/beautiful-jekyll"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
