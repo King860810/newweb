@@ -5,11 +5,11 @@
 			<nav class="navbar">
 				<ul class="nav">
 					{%- for link in site.navbar-links -%}
-        			{%- if link[1].first %}
+        			
 					<li class="">
 						<a href="{{ link[1] | relative_url }}" class="home-current">{{ link[0] }}</a>
 					</li>
-					{%- endif -%}
+				
                     {%- endfor -%}
 				</ul>
 			</nav>
