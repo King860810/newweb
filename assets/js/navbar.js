@@ -1,4 +1,8 @@
-(function(){
+---
+layout: null
+---
+	
+(function ($) {
     var navbarToggle = document.querySelector('.navbar-toggle'),
         navbarNav    = document.querySelector('.navbar'),
 		navbarBg    = document.querySelector('.home-header'),
@@ -28,4 +32,4 @@
     else {
         navbarToggle.addEventListener('click', navbarToggleNav);
     }
-})()
+})(jQuery);
