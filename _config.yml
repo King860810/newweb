@@ -14,12 +14,10 @@ author: 钱钱钱
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  ccc: "www.baidu.com"
-  Resources: 
-    - Beautiful Jekyll: "https://king860810.github.io/beautiful-jekyll"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects: "aboutme"
+  Networks: "www.baidu.com"
+  Community: "www.baidu.com"
+  About: "https://deanattali.com"
 
 # --- Logo --- #
 

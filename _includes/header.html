@@ -20,6 +20,25 @@
   ></div>
 {% endif %}
 
+<header id="header" class="home-header">
+	<div class="container">
+		<div class="global-nav">
+			<a class="brand" href="index.html">SIKKA</a>
+			<nav class="navbar">
+				<ul class="nav">
+					{%- for link in site.navbar-links -%}
+        			{%- if link[1].first %}
+					<li class="">
+						<a href="{{ link[1] | relative_url }}" class="home-current">{{ link[0] }}</a>
+					</li>
+					{%- endif -%}
+                    {%- endfor -%}
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
 {% if page.cover-img %}
 <div class="big-img intro-header">
