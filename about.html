@@ -72,12 +72,24 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 					<img class="user-face" src="{{ '' | absolute_url }}/assets/img/picture.png" alt="">
 					<h1>Sunny <br><em>Aggarwal</em></h1>
 					<div class="social">
-						<a href=""><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-email.png"></a>
-						<a href=""><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-Twitter.png"></a>
-						<a href=""><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-keybase.png"></a>
-						<a href=""><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-GitHub.png"></a>
-						<a href=""><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-LinkedIn.png"></a>
-						<a href=""><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-webpage.png"></a>
+						{%- if site.about-team-links.email -%}
+						<a href="mailto:{{ site.about-team-links.email }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-email.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.twitter -%}
+						<a href="https://twitter.com/{{ site.about-team-links.twitter }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-Twitter.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.keybase -%}
+						<a href="http://keybase.io//{{ site.about-team-links.keybase }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-keybase.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.gitHub -%}
+						<a href="{{ site.about-team-links.gitHub }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-GitHub.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.linkedin -%}
+						<a href="https://linkedin.com/in/{{ site.about-team-links.linkedin }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-LinkedIn.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.webpage -%}
+						<a href="{{ site.about-team-links.webpage }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-webpage.png"></a>
+						{%- endif -%}
 					</div>
 					<p>Sunny has been involved with the blockchain space since 2015.  He is a core developer and researcher on the Tendermint/Cosmos projects, focusing on Proof of Stake and blockchain interoperability.  He also serves as an advisor/cofounder of Blockchain at Berkeley and co-hosts the Epicenter Podcast, one of the largest crypto podcasts with over 50K weekly listeners.</p>
 					
