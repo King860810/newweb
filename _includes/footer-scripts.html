@@ -34,24 +34,3 @@
   {% endfor %}
 {% endif %}
 
-<script type="text/javascript">
-    var btn = [];
-    var url = []
-    var len = $(".contentIN").size();
-    for (var i = 0; i < len; i++) {
-        btn.push("#btn" + (i + 1));
-        url.push("#url" + (i + 1));
-        }
-    console.log(btn);
-    for(var j in btn){
-        (function(data_j){
-            $(btn[data_j]).bind("click", function () {
-                $(url[data_j]).select();
-                document.execCommand("Copy");
-				alert("复制成功")
-            });
-        })(j);
-    }
- 
- 
-</script>
