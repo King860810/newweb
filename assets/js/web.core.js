@@ -261,7 +261,7 @@ web.dialog = {
 
         if (op.url) {
             web.ajax({url:op.url, callback:function(html){
-                document.querySelector('.dialog-body').innerHTML = "Hello World!";
+                document.querySelector('.dialog-body').innerHTML = ;
             }});
         }
         web.addClass(document.body, 'modal-open');
