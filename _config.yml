@@ -39,11 +39,13 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
   twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  telegram: yourname
+  keybase: yourname
+#  facebook: deanattali
+#  github: daattali
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
