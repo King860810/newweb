@@ -15,9 +15,9 @@ author: 钱钱钱
 
 navbar-links:
   Projects: "projects"
-  Networks: "www.baidu.com"
-  Community: "www.baidu.com"
-  About: "https://deanattali.com"
+  Networks: "networks"
+  Community: "community"
+  About: "about"
 
 # --- Logo --- #
 
