@@ -18,8 +18,7 @@
       {% endif %}
     {% endcapture %}
 
-    {% assign thumbnail=thumbnail | strip %}
-{% unless site.feed_show_excerpt == false %}
+    {% unless site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
 
         <img id="header-big-imgs" src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
