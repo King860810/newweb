@@ -723,6 +723,9 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     color: #FFFFFF;
     line-height: 24px;
 }
+.blog-pager{
+	display: none;
+}
 .big-img .container-md p{
 	font-family: GothamPro-Bold;
 font-size: 60px;
