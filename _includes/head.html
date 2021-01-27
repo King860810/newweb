@@ -15,8 +15,8 @@
   {% capture description %}
     {%- if page.share-description -%}
       {{ page.share-description | strip_html | xml_escape }}
-    {%- elsif page.subtitle -%}
-      {{ page.subtitle | strip_html | xml_escape }}
+    {%- elsif page.description -%}
+      {{ page.description | strip_html | xml_escape }}
     {%- else -%}
       {%- assign excerpt_length = site.excerpt_length | default: 50 -%}
       {{ page.content | strip_html | xml_escape | truncatewords: excerpt_length | strip }}
@@ -38,8 +38,6 @@
   {% if site.keywords %}
   <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
-
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
 
 
   {% if layout.common-css %}
