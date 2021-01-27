@@ -40,7 +40,7 @@ layout: base
 			{% if site.feed_show_authors != false and post.authors.size > 0 %}
     
   
-      {% for tag in post.authors %}
+      {% for author in post.authors %}
       {{- author -}}
       {% endfor %}
    
