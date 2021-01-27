@@ -2,8 +2,8 @@
 layout: post
 title: Tendermint & Lunie: Extended Support for the Cosmos Hub
 subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/tendermint-lunie-extended-support-for-the-cosmos-hub.png
-thumbnail-img: /assets/img/tendermint-lunie-extended-support-for-the-cosmos-hub.png
+cover-img: /assets/img/tendermint.png
+thumbnail-img: /assets/img/tendermint.png
 author: [Kevin Cheng]
 ---
 
