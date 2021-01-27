@@ -37,14 +37,14 @@ layout: base
       		{% assign excerpt_word_count = post.excerpt | number_of_words %}
 		</p>
 		<dt>
-			{% if site.feed_show_authors != false and post.authors.size > 0 %}
+			
     
   
       {% for author in post.authors %}
       {{- author -}}
       {% endfor %}
    
-    {% endif %}
+   
 			<br>{% assign date_format = site.date_format | default: "%B %-d" %}{{ post.date | date: date_format }}</dt>
 		</a>
 	</div>
