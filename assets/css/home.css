@@ -715,7 +715,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     line-height: 60px;
 }
 
-.container-md  .row{
+.container-md  .blog-post{
 	width: 960px;
     margin: 0 auto;
     font-family: GothamPro;
