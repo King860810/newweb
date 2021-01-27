@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Critical Cisco SD-WAN Bugs Allow RCE Attacks
-cover-img: /assets/img/critical-cisco-sd-wan-bugs-allow-rce-attacks
-thumbnail-img: /assets/img/critical-cisco-sd-wan-bugs-allow-rce-attacks
+cover-img: /assets/img/critical-cisco-sd-wan-bugs-allow-rce-attacks.jpg
+thumbnail-img: /assets/img/critical-cisco-sd-wan-bugs-allow-rce-attacks.jpg
 author: [Kevin Cheng]
 ---
 
