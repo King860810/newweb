@@ -5,25 +5,43 @@ layout: base
 <div class="latest-articles">
 	<h1>Latest Articles</h1>
 	<p>Read the latest news, features and announcements from the Sikka Blog and around the web.</p>
+	{% for post in posts %}
 	<div class="col-2">
-		<img src="{{ '' | absolute_url }}/assets/img/lastes-img.png">
-		<h2>Aricle title here</h2>
-		<p>The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.</p>
+		{%- capture thumbnail -%}
+          {% if post.thumbnail-img %}
+            {{ post.thumbnail-img }}
+          {% elsif post.cover-img %}
+            {% if post.cover-img.first %}
+              {{ post.cover-img[0].first.first }}
+            {% else %}
+              {{ post.cover-img }}
+            {% endif %}
+           {% else %}
+           {% endif %}
+        {% endcapture %}
+        {% assign thumbnail=thumbnail | strip %}
+
+        {% if site.feed_show_excerpt == false %}
+        {% if thumbnail != "" %}
+		<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+		<img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+		</a>
+		{% endif %}
+        {% endif %}
+		<a href="{{ post.url | absolute_url }}">
+		<h2>{{ post.title }}</h2>
+		</a>
+		<p>
+			{% assign excerpt_length = site.excerpt_length | default: 50 %}
+      		{{ post.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
+      		{% assign excerpt_word_count = post.excerpt | number_of_words %}
+		</p>
 		<dt>Kevin Cheng <br>Sep 20</dt>
 		
 	</div>
-	<div class="col-2">
-		<img src="{{ '' | absolute_url }}/assets/img/lastes-img.png">
-		<h2>Long title text here: Extended Support for the Cosmos Hub</h2>
-		<p>The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate</p>
-		<dt>Kevin Cheng <br>Sep 20</dt>
-	</div>
-	<div class="col-2">
-		<img src="{{ '' | absolute_url }}/assets/img/lastes-img.png">
-		<h2>Aricle title here</h2>
-		<p>The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.</p>
-		<dt>Kevin Cheng <br>Sep 20</dt>
-	</div>
+	{% endfor %}
+	
+	
 </div>
 
 	
