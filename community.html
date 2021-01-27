@@ -5,6 +5,7 @@ layout: base
 <div class="latest-articles">
 	<h1>Latest Articles</h1>
 	<p>Read the latest news, features and announcements from the Sikka Blog and around the web.</p>
+	<div>
 	{% for post in posts %}
 	<div class="col-2">
 		{%- capture thumbnail -%}
@@ -40,7 +41,7 @@ layout: base
 		
 	</div>
 	{% endfor %}
-	
+	</div>
 	
 </div>
 
