@@ -1,31 +1,16 @@
 ---
 layout: post
 title: Tendermint & Lunie: Extended Support for the Cosmos Hub
+subtitle: Excerpt from Soulshaping by Jeff Brown
 cover-img: /assets/img/tendermint-lunie-extended-support-for-the-cosmos-hub.png
 thumbnail-img: /assets/img/tendermint-lunie-extended-support-for-the-cosmos-hub.png
 author: [Kevin Cheng]
 ---
 
-We were surprised and saddened to hear that Lunie plans on sunsetting their hosted services at the end of November. For those of you new to the ecosystem, you may not know about Lunie and Tendermint’s shared history. The Lunie wallet project used to be a product of Tendermint and is, in fact, the oldest wallet in the Cosmos ecosystem.
+Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
 
-Development on the wallet codebase started four years ago, around the time of the Cosmos fundraiser. Early supporters of Cosmos may recall there used to be a wallet called the Cosmos Voyager — this later became Lunie. Jordan Bibla and Fabian Weber, core members of the Voyager team, wanted to build a company focused on wallet development. They spun out of Tendermint in early 2019 to form Lunie International Software Systems Inc.
+The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
 
-The Lunie wallet is still the most popular web wallet for the Cosmos ecosystem. Aside from their well-known web wallet, they also have a mobile wallet, a Chrome extension, and a powerful notifications system. They also currently support seven different blockchain networks, including the Cosmos Hub, Kava, Terra, E-Money, Akash, Kusama, and Polkadot.
+At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
 
-Lunie’s focus on providing a great user experience to proof-of-stake networks has made them stand out in the nascent crypto ecosystem. What they’ve done is no easy feat — they made it easy for users to stake tokens and vote on governance proposals with their intuitive UI.
-
-A large number of ATOM holders use Lunie to manage their funds, receive staking rewards, and vote on governance proposals. While there exist good alternatives to migrate to, like Keplr and Cosmostation, what about the users who would prefer to continue using Lunie?
-
-With the sunset of hosted Lunie products imminent, we’ve taken steps to ensure that ATOM holders who prefer using Lunie can continue doing so. Tendermint and the Interchain Foundation have been working with the Lunie team to develop Lunie Light, a wallet specifically aimed at supporting the Cosmos Hub and blockchains built on recent versions of the Cosmos SDK.
-
-While the wallet is called Lunie Light, it does not mean it will be light on features. Lunie Light will continue to have its core features within a web UI. This includes token transfers, staking, governance, and support for a wide variety of login options, including Keplr, the Ledger hardware wallets, and the new WebAuthn standard.
-
-Feel free to check out the specs and progress here.
-
-Tendermint is now hosting this wallet at https://lunie.cosmos.network, with initial support for the cosmoshub-3 blockchain. Once the Cosmos Hub upgrades to Stargate, we will update our hosted version of Lunie to support cosmoshub-4, which will feature interchain token transfers.
-
-In the long term, we are looking at ways to build pathways to more sustainable wallet development. We believe the future must be decentralized, and Tendermint will always encourage a diverse ecosystem of wallet providers for Cosmos.
-
-Are you an ATOM holder? Be sure to check out lunie.cosmos.network!
-
-Source: https://blog.cosmos.network/tendermint-lunie-extended-support-for-the-cosmos-hub-23b001a5c2df?source=rss—-6c5d35b77e13—4
+A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
