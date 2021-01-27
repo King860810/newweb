@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/lastes.png
-thumbnail-img: /assets/img/lastes-img.png
-share-img: /assets/img/lastes.png
+title: B2Broker adds new range of features to B2Trader Matching Engine
+cover-img: /assets/img/b2broker.jpg
+thumbnail-img: /assets/img/b2broker.jpg
+share-img: /assets/img/b2broker.jpg
 author: [Kevin Cheng]
 ---
 
