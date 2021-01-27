@@ -36,7 +36,9 @@ layout: base
       		{{ post.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
       		{% assign excerpt_word_count = post.excerpt | number_of_words %}
 		</p>
-		<dt>Kevin Cheng <br>{% assign date_format = site.date_format | default: "%B %-d" %}{{ post.date | date: date_format }}</dt>
+		<dt>{% for author in post.authors %}
+      <a href="{{ '/author' | absolute_url }}#{{- author -}}">{{- author -}}</a>
+      {% endfor %} <br>{% assign date_format = site.date_format | default: "%B %-d" %}{{ post.date | date: date_format }}</dt>
 		</a>
 	</div>
 	{% endfor %}
