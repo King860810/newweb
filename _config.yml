@@ -51,7 +51,7 @@ feed_show_tags: true
 # --- Misc --- #
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%B %-d"
 
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
