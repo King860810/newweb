@@ -8,27 +8,27 @@ layout: base
 	
 	{% for post in posts %}
 	<div class="col-2">
-		{%- capture thumbnail -%}
-          {% if post.thumbnail-img %}
-            {{ post.thumbnail-img }}
-          {% elsif post.cover-img %}
-            {% if post.cover-img.first %}
-              {{ post.cover-img[0].first.first }}
-            {% else %}
-              {{ post.cover-img }}
-            {% endif %}
-           {% else %}
-           {% endif %}
-        {% endcapture %}
-        {% assign thumbnail=thumbnail | strip %}
+    {%- capture thumbnail -%}
+      {% if post.thumbnail-img %}
+        {{ post.thumbnail-img }}
+      {% elsif post.cover-img %}
+        {% if post.cover-img.first %}
+          {{ post.cover-img[0].first.first }}
+        {% else %}
+          {{ post.cover-img }}
+        {% endif %}
+      {% else %}
+      {% endif %}
+    {% endcapture %}
+    {% assign thumbnail=thumbnail | strip %}
 
-        {% if site.feed_show_excerpt == false %}
-        {% if thumbnail != "" %}
+    {% if site.feed_show_excerpt == false %}
+    {% if thumbnail != "" %}
 		<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
 		<img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
 		</a>
-		{% endif %}
-        {% endif %}
+	{% endif %}
+    {% endif %}
 		<a href="{{ post.url | absolute_url }}">
 		<h2>{{ post.title }}</h2>
 		</a>
@@ -38,6 +38,9 @@ layout: base
       		{% assign excerpt_word_count = post.excerpt | number_of_words %}
 		</p>
 		<dt>Kevin Cheng <br>Sep 20</dt>
+		
+		
+		
 		{% if thumbnail != "" %}
 		<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
 		<img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
@@ -50,7 +53,7 @@ layout: base
 		<img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
 		</a>
 		{% endif %}
-		
+		{% endunless %}
 	</div>
 	{% endfor %}
 	
