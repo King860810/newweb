@@ -1,17 +1,31 @@
 ---
 layout: post
-title: Tendermint & Lunie: Extended Support for the Cosmos Hub
-subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/tendermint.png
-thumbnail-img: /assets/img/tendermint.png
-share-img: /assets/img/lastes.png
+title: Marathon invests $150 million in Bitcoin
+cover-img: /assets/img/marathon-invests-150-million-in-bitcoin.jpg
+thumbnail-img: /assets/img/marathon-invests-150-million-in-bitcoin.jpg
 author: [Kevin Cheng]
 ---
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+Bitcoin mining firm Marathon has purchased 4,812.66 BTC for a total of $150 million, according to a press release shared with Coin Rivet.
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+The Nasdaq-listed company executed the trade in collaboration with financial services provider NYDIG.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+“By purchasing $150 million worth of Bitcoin, we have accelerated the process of building Marathon into what we believe to be the de facto investment choice for individuals and institutions who are seeking exposure to this new asset class.
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+“We also believe that holding part of our Treasury reserves in Bitcoin will be a better long-term strategy than holding US Dollars, similar to other forward-thinking companies like MicroStrategy,” said Merrick Okamoto, Marathon’s chairman & CEO.
+
+Okamoto goes on to state that Marathon is contracted to purchase 103,060 miners that will be fully operational by the end of the first quarter of 2022.
+
+Marathon Patent Group, Inc. (NASDAQ:MARA) (“Marathon”) today announced that it has purchased 4,812.66 BTC in an aggregate purchase price of $150 million via @NYDIG_BTC. Another public company adopts #Bitcoin as a treasury reserve asset. https://t.co/acwghygNxC
+
+— Michael Saylor (@michael_saylor) January 25, 2021
+
+Robby Gutmann, co-founder and CEO of NYDIG, added: “We deeply admire Marathon’s commitment to the Bitcoin ecosystem, and we are very pleased to add them to the list of companies who utilise NYDIG as the institutional choice for Corporate Treasury Solutions.
+
+“NYDIG is uniquely positioned to help corporations navigate the challenges they face around executing and structuring the holding of large Bitcoin positions, and our ability to deliver Marathon a tailored and custom solution, with a quick turnaround, and no market impact, is why corporations and insurance companies choose NYDIG.”
+
+Marathon is the latest in a long list of companies to put respective balance sheets into Bitcoin, with MicroStrategy holding more than $1 billion while Square purchased $50 million late last year.
+
+For more news, guides and cryptocurrency analysis, click here.
+
+Source: https://coinrivet.com/marathon-invests-150-million-in-bitcoin/
