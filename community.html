@@ -8,6 +8,7 @@ layout: base
 	
 	{% for post in posts %}
 	<div class="col-2">
+		<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
     {%- capture thumbnail -%}
       {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
@@ -23,20 +24,20 @@ layout: base
     {% assign thumbnail=thumbnail | strip %}
 
     {% if thumbnail != "" %}
-		<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+		
 		<img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-		</a>
+		
 		{% endif %}
-		<a href="{{ post.url | absolute_url }}">
+
 		<h2>{{ post.title }}</h2>
-		</a>
+		
 		<p>
 			{% assign excerpt_length = site.excerpt_length | default: 50 %}
       		{{ post.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
       		{% assign excerpt_word_count = post.excerpt | number_of_words %}
 		</p>
 		<dt>Kevin Cheng <br>Sep 20</dt>
-
+		</a>
 	</div>
 	{% endfor %}
 	
