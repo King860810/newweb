@@ -715,12 +715,15 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     line-height: 60px;
 }
 
-.big-img .container-md {
+.big-img .container-md p{
 	font-family: GothamPro-Bold;
 font-size: 60px;
 color: #000000;
 text-align: center;
 line-height: 60px;
+	background-image: linear-gradient(to right , #E3E3E3, #707070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .picture_1 {
 	height: 202px;
