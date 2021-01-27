@@ -715,13 +715,12 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     line-height: 60px;
 }
 
-.container-md {
-	width: 960px;
-    margin: 0 auto;
-    font-family: GothamPro;
-    font-size: 16px;
-    color: #FFFFFF;
-    line-height: 24px;
+.big-img .container-md {
+	font-family: GothamPro-Bold;
+font-size: 60px;
+color: #000000;
+text-align: center;
+line-height: 60px;
 }
 
 @media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx){
