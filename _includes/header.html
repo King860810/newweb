@@ -17,7 +17,18 @@
     {% endif %}
     {% endfor %}
     {% endfor %}
-  ><img src="{{ imginfo | absolute_url }}"></div>
+  ><img 
+		{% for bigimg in page.cover-img %}
+    {% assign imgnum = forloop.index %}
+    {% for imginfo in bigimg %}
+      {% if imginfo[0] %}
+      src="{{ imginfo[0] | absolute_url }}"
+      src="{{ imginfo[1] }}"
+    {% else %}
+      src="{{ imginfo | absolute_url }}"
+    {% endif %}
+    {% endfor %}
+    {% endfor %}></div>
 {% endif %}
 
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
