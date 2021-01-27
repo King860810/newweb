@@ -5,18 +5,7 @@
 {% if page.cover-img or page.title %}
 
 {% if page.cover-img %}
-  <img id="header-big-imgs" src={% if page.cover-img.first %}{{ page.cover-img.size }}{% else %}1{% endif %}
-    {% for bigimg in page.cover-img %}
-    {% assign imgnum = forloop.index %}
-    {% for imginfo in bigimg %}
-      {% if imginfo[0] %}
-      data-img-src-{{ imgnum }}="{{ imginfo[0] | absolute_url }}"
-      data-img-desc-{{ imgnum }}="{{ imginfo[1] }}"
-    {% else %}
-      data-img-src-{{ imgnum }}="{{ imginfo | absolute_url }}"
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+  <img id="header-big-imgs" src="{{ imginfo | absolute_url }}"
   />
 {% endif %}
 
