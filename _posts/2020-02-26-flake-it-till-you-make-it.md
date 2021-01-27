@@ -2,8 +2,8 @@
 layout: post
 title: Flake it till you make it
 subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/lastes-img2.png
-thumbnail-img: /assets/img/lastes-img3.png
+cover-img: /assets/img/lastes.png
+thumbnail-img: /assets/img/lastes-img.png
 share-img: /assets/img/lastes.png
 author: [Kevin Cheng]
 ---
