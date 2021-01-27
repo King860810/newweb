@@ -1,7 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   {% capture title %}
     {%- if page.share-title -%}
@@ -42,15 +41,6 @@
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
 
-  {% include gtag.html %}
-  {% include gtm_head.html %}
-  {% include google_analytics.html %}
-
-  {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
 
   {% if layout.common-css %}
     {% for css in layout.common-css %}
@@ -64,18 +54,6 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
-  
-  {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">
   {% endif %}
@@ -84,22 +62,6 @@
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
 
-  {%- capture img -%}
-    {%- if page.share-img -%}
-      {{ page.share-img }}
-    {%- elsif page.cover-img -%}
-      {%- if page.cover-img.first -%}
-        {{ page.cover-img[0].first.first }}
-      {%- else -%}
-        {{ page.cover-img }}
-      {%- endif -%}
-    {%- elsif page.thumbnail-img -%}
-      {{ page.thumbnail-img }}
-    {%- elsif site.avatar -%}
-      {{ site.avatar }}
-    {% endif %}
-  {%- endcapture -%}
-  {%- assign img=img | strip -%}
 
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
@@ -120,22 +82,6 @@
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
   {% endif %}
 
-  {% if img != "" and img != site.avatar %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
-
-  <meta property="twitter:title" content="{{ title }}">
-  <meta property="twitter:description" content="{{ description }}">
-
-  {% if img != "" %}
-  <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
-
-  {% include matomo.html %}
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
