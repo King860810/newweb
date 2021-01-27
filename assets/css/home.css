@@ -489,6 +489,12 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     padding-right: unset;
 	
 }
+.latest-articles .col-2 a{
+	display: block;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
 .community{
 	width: 1120px;
     height: 282px;
