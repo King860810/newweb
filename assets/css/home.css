@@ -722,6 +722,13 @@ color: #000000;
 text-align: center;
 line-height: 60px;
 }
+.picture_1 {
+	height: 202px;
+    width: 100%;
+}
+.picture_1 img{
+	width: 100%;
+}
 
 @media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx){
 	.brand {background-image:url("../img/logo.png");}

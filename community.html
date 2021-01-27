@@ -9,6 +9,7 @@ layout: base
 	{% for post in posts %}
 	<div class="col-2">
 		<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+			<div class="picture_1">
     {%- capture thumbnail -%}
       {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
@@ -28,7 +29,7 @@ layout: base
 		<img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
 		
 		{% endif %}
-
+</div>
 		<h2>{{ post.title }}</h2>
 		
 		<p>
