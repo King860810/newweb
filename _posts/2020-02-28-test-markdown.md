@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
+title: Flake it till you make it
+subtitle: Excerpt from Soulshaping by Jeff Brown
+cover-img: /assets/img/lastes.png
+thumbnail-img: /assets/img/lastes-img.png
+share-img: /assets/img/lastes.png
+author: [Kevin Cheng]
 ---
 
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
