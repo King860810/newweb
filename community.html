@@ -36,9 +36,16 @@ layout: base
       		{{ post.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
       		{% assign excerpt_word_count = post.excerpt | number_of_words %}
 		</p>
-		<dt> {% if site.feed_show_authors != false and post.authors.size > 0 %}{% for author in post.authors %}
-      <a href="{{ '/author' | absolute_url }}#{{- author -}}">{{- author -}}</a>
-      {% endfor %}  {% endif %}<br>{% assign date_format = site.date_format | default: "%B %-d" %}{{ post.date | date: date_format }}</dt>
+		<dt>
+			{% if site.feed_show_authors != false and post.authors.size > 0 %}
+    
+  
+      {% for tag in post.authors %}
+      {{- author -}}
+      {% endfor %}
+   
+    {% endif %}
+			<br>{% assign date_format = site.date_format | default: "%B %-d" %}{{ post.date | date: date_format }}</dt>
 		</a>
 	</div>
 	{% endfor %}
