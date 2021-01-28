@@ -839,6 +839,10 @@ line-height: 60px;
 
 
 @media (min-width: 320px) {
+	.big-img .container-md p{
+		font-size: 24px;
+		line-height: 24px;
+	}
 	#header-big-imgs{
 	    width: 280px;
 		margin-top: 104px;
@@ -1202,6 +1206,10 @@ line-height: 60px;
 }
 
 @media (min-width: 360px) {
+	.big-img .container-md p{
+		font-size: 30px;
+		line-height: 30px;
+	}
 	#header-big-imgs{
 	    width: 320px;
 		margin-top: 104px;
@@ -1562,6 +1570,10 @@ line-height: 60px;
 }
 
 @media (min-width: 375px) {
+	.big-img .container-md p{
+		font-size: 30px;
+		line-height: 30px;
+	}
 	#header-big-imgs{
 	    width: 334px;
 		margin-top: 104px;
@@ -1915,6 +1927,10 @@ line-height: 60px;
 }
 
 @media (min-width: 411px) {
+	.big-img .container-md p{
+		font-size: 35px;
+		line-height: 35px;
+	}
 	#header-big-imgs{
 	    width: 331px;
 		margin-top: 104px;
@@ -2268,6 +2284,10 @@ line-height: 60px;
 }
 
 @media (min-width: 414px) {
+	.big-img .container-md p{
+		font-size: 35px;
+		line-height: 35px;
+	}
 	#header-big-imgs{
 	    width: 334px;
 		margin-top: 104px;
@@ -2959,6 +2979,10 @@ line-height: 60px;
 }
 
 @media (min-width: 768px) {
+	.big-img .container-md p{
+		font-size: 60px;
+		line-height: 60px;
+	}
 	
 	
 	#header-big-imgs{
