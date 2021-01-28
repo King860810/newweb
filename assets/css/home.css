@@ -2902,8 +2902,11 @@ line-height: 60px;
 }
 
 @media (min-width: 768px) {
+	
+	
 	#header-big-imgs{
 	    width: 604px;
+		margin-top: 120px;
 }
 	.header-section{
 		width: 604px;
@@ -3407,29 +3410,7 @@ line-height: 60px;
 
 }
 
-/* Projects 
-#pro-intro {background:#65ace4 url("../img/banner/project-intro.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-#pro-intro h1 {font-size:54px;color:#fff;}
 
-#sub-park {padding:50px 0;background:#fff url("../img/banner/project-2.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-visitor {background:url("../img/banner/project-3.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-showroom {background:url("../img/banner/project-4.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-
-#sub-shipping1 {background:#a38b79}
-#sub-shipping17 {background:url("../img/banner/project-5-17.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-sinochem {background:url("../img/banner/project-7.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-jinmao {background:url("../img/banner/project-8.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-star {background:url("../img/banner/project-9.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-cecep {background:url("../img/banner/project-10.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}
-
-#sub-museum {background:url("../img/banner/project-6.jpg") no-repeat center center;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover;}*/
 #sub-museum .box-txt {position:absolute;left:15px;bottom:20px;}
 #sub-shipping1 h2, #sub-shipping1 p, #sub-jinmao h2, #sub-jinmao p, #sub-cecep h2, #sub-cecep p, #sub-museum h2, #sub-museum p {line-height:1.5;color:#fff;}
 #sub-visitor .container, #sub-showroom .container, #sub-shipping .container, #sub-shipping1 .container, #sub-shipping17 .container, #sub-sinochem .container, #sub-jinmao .container, #sub-star .container, #sub-cecep .container, #sub-museum .container {height:400px;padding:20px 15px;position:relative;}
@@ -4063,6 +4044,17 @@ a {
 }
 
 @media (min-width: 992px) {
+	#header-big-imgs{
+	    width: 814px;
+		margin-top: 160px;
+}
+	.header-section{
+		width: 814px;
+	}
+	.container-md .blog-post{
+		width: 814px;
+	}
+	
 	/*about*/
 	.about-mian{
 	width: 814px;
@@ -4310,6 +4302,19 @@ a {
 	}
 }
 @media (min-width:1200px) {
+	#header-big-imgs{
+	    width: 960px;
+		margin-top: 160px;
+}
+	.header-section{
+		width: 960px;
+	}
+	.container-md .blog-post{
+		width: 960px;
+	}
+
+	
+	
 	/*about*/
 	.about-mian{
 	width: 1120px;
