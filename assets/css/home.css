@@ -839,6 +839,18 @@ line-height: 60px;
 
 
 @media (min-width: 320px) {
+	#header-big-imgs{
+	    width: 280px;
+		margin-top: 104px;
+}
+	.header-section{
+		width: 280px;
+	}
+	.container-md .blog-post{
+		width: 280px;
+	}
+	
+	
 		/*about*/
 	.about-mian{
 		width: 280px;
@@ -1190,6 +1202,16 @@ line-height: 60px;
 }
 
 @media (min-width: 360px) {
+	#header-big-imgs{
+	    width: 320px;
+		margin-top: 104px;
+}
+	.header-section{
+		width: 320px;
+	}
+	.container-md .blog-post{
+		width: 320px;
+	}
 	
 		/*about*/
 	.about-mian{
@@ -1540,6 +1562,18 @@ line-height: 60px;
 }
 
 @media (min-width: 375px) {
+	#header-big-imgs{
+	    width: 334px;
+		margin-top: 104px;
+}
+	.header-section{
+		width: 334px;
+	}
+	.container-md .blog-post{
+		width: 334px;
+	}
+	
+	
 	/*about*/
 	.about-mian{
 		width: 334px;
@@ -1881,6 +1915,17 @@ line-height: 60px;
 }
 
 @media (min-width: 411px) {
+	#header-big-imgs{
+	    width: 331px;
+		margin-top: 104px;
+}
+	.header-section{
+		width: 331px;
+	}
+	.container-md .blog-post{
+		width: 331px;
+	}
+	
 	/*about*/
 	.about-mian{
 		width: 334px;
@@ -2223,6 +2268,18 @@ line-height: 60px;
 }
 
 @media (min-width: 414px) {
+	#header-big-imgs{
+	    width: 334px;
+		margin-top: 104px;
+}
+	.header-section{
+		width: 334px;
+	}
+	.container-md .blog-post{
+		width: 334px;
+	}
+	
+	
 	/*about*/
 	.about-mian{
 		width: 334px;
