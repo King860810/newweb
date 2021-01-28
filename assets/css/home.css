@@ -2902,6 +2902,18 @@ line-height: 60px;
 }
 
 @media (min-width: 768px) {
+	#header-big-imgs{
+	    width: 604px;
+}
+	.header-section{
+		width: 604px;
+	}
+	.container-md .blog-post{
+		width: 604px;
+	}
+
+	
+	
 	.pr-left {
     width: 430px;
 }
