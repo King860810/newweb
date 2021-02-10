@@ -8,7 +8,7 @@ ul{padding:0; margin:0;}
 li{padding:0; margin:0; list-style:none}
 img {border:0;}
 hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #353c48;}
-
+.shrink-nav{background: #181818;}
 #header {position:fixed;top:0;left:0;right:0;z-index:20;}
 .home-header{background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(23,23,23,0.85)), to(rgba(23, 23, 23, 0)));}
 .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {float:left;min-height:1px;padding-left:15px;padding-right:15px;position:relative;}
