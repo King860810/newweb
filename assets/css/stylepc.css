@@ -714,7 +714,7 @@ overflow:hidden; resize:none;
 	.link2{
 		width: 80%;
     margin: auto;
-    display: flex;
+    display: revert;
 		padding-left: 0px;
 	}
 }
@@ -915,7 +915,7 @@ overflow:hidden; resize:none;
 	.link2{
 		width: 80%;
     margin: auto;
-    display: flex;
+    display: revert;
 		padding-left: 0px;
 	}
 }
@@ -1116,7 +1116,7 @@ overflow:hidden; resize:none;
 	.link2{
 		width: 80%;
     margin: auto;
-    display: flex;
+    display: revert;
 		padding-left: 0px;
 	}
 }
@@ -1516,11 +1516,29 @@ overflow:hidden; resize:none;
 	.link2{
 		width: 80%;
     margin: auto;
-    display: flex;
+    display: revert;
 		padding-left: 0px;
 	}
 }
-@media (min-width: 540px){}
+@media (min-width: 540px){
+	.network {
+    width: 540px;
+}
+	.main .menu {
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+}
+	.main .content {
+    margin-left: 0px;
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+}
+	.main .content .menu1 .active {
+    width: 540px;
+}
+}
 @media (min-width: 768px){
 	.main .menu ul li {
     height: auto;
