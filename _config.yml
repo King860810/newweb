@@ -16,7 +16,7 @@ description: This website is a virtual proof that I'm awesome
 navbar-links:
   Projects: "projects"
   Networks: "networks"
-  Community: ""
+#  Community: "community"
   About: "about"
 
 
