@@ -395,7 +395,6 @@
     padding-top: 20px;
 }
 .link2 .btn2{
-	    width: 158px;
     height: 40px;
     float: right;
     background: #000;
@@ -406,12 +405,17 @@
     margin: 5px 0;
     margin-right: 15px;
 }
+.link2 .lunie{
+	width: 245px;
+}
+.link2 .kepl{
+	width: 158px;
+}
 .link2 .btn2 bm {
-    width: 120px;
     display: block;
     float: left;
     color: #fff;
-    
+    margin-right: 10px;
     padding-left: 40px;
     font-size: 14px;
 }
