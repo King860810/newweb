@@ -300,6 +300,16 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	padding: 0 24px 0 80px;
 	margin-bottom: 70px;
 }
+
+/*隐藏blog*/
+.latest-articles{
+	display: none;
+}
+
+.community{
+	margin-top: 80px;
+}
+
 .latest-articles{
 	width: 1140px;
     margin: 0 auto;
