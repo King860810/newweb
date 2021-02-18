@@ -40,31 +40,31 @@ about-team-links-1:
 
 about-team-links-2:
   photoUrl: Dev-ojha.png
-  email: "someone@example.com"
-  twitter: daattali
-  keybase: yourname
-  gitHub: daattali
-  linkedin: daattali
-  webpage: url
+  email: "dev@sikka.tech"
+#  twitter: daattali
+#  keybase: yourname
+  gitHub: valardragon
+#  linkedin: daattali
+#  webpage: url
 
 
 about-team-links-3:
   photoUrl: Eugen-S.jpeg
-  email: "someone@example.com"
-  twitter: daattali
-  keybase: yourname
-  gitHub: daattali
-  linkedin: daattali
-  webpage: url
+  email: "eugen@sikka.tech"
+#  twitter: daattali
+#  keybase: yourname
+  gitHub: antstalepresh
+  linkedin: eugen-s-726b221b7
+#  webpage: url
   
 about-team-links-4:
   photoUrl: Kevin-Cheng.jpeg
-  email: "someone@example.com"
-  twitter: daattali
-  keybase: yourname
-  gitHub: daattali
-  linkedin: daattali
-  webpage: url
+  email: "kevin@sikka.tech"
+  twitter: chenggong8966
+#  keybase: yourname
+#  gitHub: daattali
+  linkedin: gong-cheng-584ab514a
+#  webpage: url
 # --- General options --- #
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
