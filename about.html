@@ -54,7 +54,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</td>
 	</div>
 	<div class="col-3"><td id="5">
-		<a class="connect" href="#" target="dialog">
+		<a class="connect" href="#" target="dialog{{ site.about-team-links.id }}">
 		<div class="m1">
 			<div class="picture"></div>
 			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
@@ -63,7 +63,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</td>
 	</div>
 </div>
-<div class="dialog" id="dialog1">
+<div class="dialog" >
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">
@@ -72,7 +72,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 					<span></span>
 				</a>
 			</div>
-			<div class="dialog-body">
+			<div class="dialog-body{{ site.about-team-links.id }}">
 				<div class="dialog-text">
 					<img class="user-face" src="{{ '' | absolute_url }}/assets/img/picture.png" alt="">
 					<h1>Sunny <br><em>Aggarwal</em></h1>
@@ -103,24 +103,3 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</div>
 	</div>
 </div>
-<script> 
-var hide=function(){
-var divs=document.getElementsByTagName("dialog");
-    for (var i=0;i<divs.length ;i++ )
-    {
-        divs[i].style.display="none";
-    }
-}
-window.onload=function(){
-    hide();
-    var a=document.getElementsByTagName("td");
-  for(var i = 0; i < a.length; i++){
-        a[i].onclick = function(oEvent){
-            oEvent = oEvent || event;hide();
-            document.getElementById("dialog"+this.id).style.display="block";
-        };
-    }
-}
- 
- 
-</script>
