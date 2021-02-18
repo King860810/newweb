@@ -3788,9 +3788,9 @@ a {
 
 
 
-.modal-open {overflow:hidden;}
-.modal-open .dialog {display:table;}
-.modal-open .dialog-backdrop {display:block;}
+
+ .dialog {display:table;}
+ .dialog-backdrop {display:block;}
 /*.carousel-top{ margin-top:80px;}*/
 
 .nav li:nth-child(6){ background:none}
