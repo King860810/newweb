@@ -39,6 +39,7 @@ about-team-links-1:
   webpage: http://www.sunnya97.com
 
 about-team-links-2:
+  photoUrl: Dev-ojha.png
   email: "someone@example.com"
   twitter: daattali
   keybase: yourname
@@ -48,6 +49,7 @@ about-team-links-2:
 
 
 about-team-links-3:
+  photoUrl: Eugen-S.jpeg
   email: "someone@example.com"
   twitter: daattali
   keybase: yourname
@@ -56,6 +58,7 @@ about-team-links-3:
   webpage: url
   
 about-team-links-4:
+  photoUrl: Kevin-Cheng.jpeg
   email: "someone@example.com"
   twitter: daattali
   keybase: yourname
