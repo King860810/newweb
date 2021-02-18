@@ -256,32 +256,23 @@ web.ajax = function(options){
 }
 
 web.dialog = {
-    open:function(options){
-        var op = web.extend({url:''}, options);
-
-        if (op.url) {
-            web.ajax({url:op.url, callback:function(html){
-                document.querySelector('.dialog-body').innerHTML = message;
-            }});
-        }
-        web.addClass(document.body, 'modal-open');
-    },
-    close:function(){
-        web.removeClass(document.body, 'modal-open');
-    },
-    init:function(parent) {
-
-        var $p = parent || document.body,
-            $dialogLinks = $p.querySelectorAll('a[target=dialog]');
-        for (var i=0; i<$dialogLinks.length; i++) {
-            web.bind($dialogLinks[i], 'click', function(event, data){
-                var url = $dialogLinks[data].href;
-                web.dialog.open({url: url});
-
-                return false;
-            }, i);
-        }
+var hide=function(){
+var divs=document.getElementsByTagName("dialog");
+    for (var i=0;i<divs.length ;i++ )
+    {
+        divs[i].style.display="none";
     }
+}
+window.onload=function(){
+    hide();
+    var a=document.getElementsByTagName("td");
+  for(var i = 0; i < a.length; i++){
+        a[i].onclick = function(oEvent){
+            oEvent = oEvent || event;hide();
+            document.getElementById("div"+this.id).style.display="block";
+        };
+    }
+}
 }
 
 web.dialog.init();
