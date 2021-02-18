@@ -105,7 +105,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</div>
 	</div>
 </div>
-<div class="dialog2" style="display:none;">
+<div class="dialog2" style="display:none;" onClick="div_none('dialog2');">
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">
@@ -145,7 +145,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</div>
 	</div>
 </div>
-<div class="dialog3" style="display:none;" >
+<div class="dialog3" style="display:none;" onClick="div_none('dialog3');">
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">
@@ -187,7 +187,7 @@ He is trying hard to build more robust and secure software on blockchain using C
 		</div>
 	</div>
 </div>
-<div class="dialog4" style="display:none;" >
+<div class="dialog4" style="display:none;" onClick="div_none('dialog4');">
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">
@@ -227,7 +227,7 @@ He is trying hard to build more robust and secure software on blockchain using C
 		</div>
 	</div>
 </div>
-<div class="dialog5" style="display:none;" id="menu">
+<div class="dialog5" style="display:none;" onClick="div_none('dialog5');">
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">
@@ -287,14 +287,4 @@ obj.style.display = "none";
 }
 }
 }
-</script>
-<script type="text/javascript">
- document.addEventListener("click",clickHidden);//所有组件添加点击事件
- 
-    var mn=document.getElementById('menu');//获取菜单节点，菜单id为menu
-    function clickHidden(eve)
-    {
-        if( eve.target.id!="menu" )//点击的如果不是菜单，菜单隐藏。如果是菜单，菜单显现
-    	mn.style.display="none";
-    }
 </script>
