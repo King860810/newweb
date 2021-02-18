@@ -255,23 +255,3 @@ web.ajax = function(options){
     xmlHttp.send(postData);
 }
 
-
-var hide=function(){
-var divs=document.getElementsByTagName("dialog");
-    for (var i=0;i<divs.length ;i++ )
-    {
-        divs[i].style.display="none";
-    }
-}
-window.onload=function(){
-    hide();
-    var a=document.getElementsByTagName("td");
-  for(var i = 0; i < a.length; i++){
-        a[i].onclick = function(oEvent){
-            oEvent = oEvent || event;hide();
-            document.getElementById("dialog"+this.id).style.display="block";
-        };
-    }
-}
-
-
