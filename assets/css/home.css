@@ -23,14 +23,14 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 }
 .headerbg{background: #181818;}
 .p-01{
-	font-family: GothamPro;
+	font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-size: 36px;
     background-image: linear-gradient(to right , #E3E3E3, #707070);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .p-02{
-	font-family: GothamPro-Medium;
+	font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 48px;
     line-height: 52px;
     background-image: linear-gradient(to right , #E3E3E3, #707070);
@@ -39,7 +39,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	margin: 0;
 }
 .t2{
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -47,12 +47,12 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	margin-left: 17px;
 }
 .t3{
-	font-family: GothamPro-Medium;
+	font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
 }
 .stake-btn{
-	font-family: GothamPro-Medium;
+	font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -73,7 +73,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     margin-block: 28px;
 }
 .t4{
-	font-family: GothamPro;
+	font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 28px;
@@ -92,7 +92,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	overflow: hidden;
 }
 .Validators h1{
-	font-family: GothamPro-Medium;
+	font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #262626;
     line-height: 52px;
@@ -124,19 +124,19 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	background: url("../img/icon_p.png");
 }
 .t5{
-	font-family: GothamPro;
+	font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
 }
 .t6{
-	font-family: GothamPro;
+	font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
 }
 .Delegate-btn {
 	width: 142px;
     height: 48px;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #1B1B1B;
     text-align: center;
@@ -149,7 +149,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 .more-btn{
     width: 170px;
     height: 48px;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -220,7 +220,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	padding-bottom: 46px;
 }
 .pr1{
-	font-family: GothamPro-Medium;
+	font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 60px;
     color: #262626;
     line-height: 52px;
@@ -233,7 +233,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     display: inline-block;
 }
 .pr2{
-	font-family: GothamPro;
+	font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #BDA57E;
     line-height: 20px;
@@ -258,7 +258,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 }
 .Threshold a, .Cosmos a, .Straightedge a{
 	width: 363px;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #262626;
     line-height: 52px;
@@ -313,7 +313,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	width: 516px;
 }
 .about-left h1{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #262626;
     line-height: 52px;
@@ -323,7 +323,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     width: 240px;
 }
 .about-left a{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 28px;
@@ -342,7 +342,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	overflow: hidden;
 }
 .team-main h1{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #262626;
     line-height: 52px;
@@ -379,7 +379,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	border-radius:50%;
 }
 .team-main .t5{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     
@@ -392,7 +392,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	font-style: inherit;
 }
 .team-main .t6{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #BDA57E;
     padding-right: inherit;
@@ -413,7 +413,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	
 }
 .latest-articles h1{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #262626;
     line-height: 52px;
@@ -431,7 +431,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     padding: 0 21px;
     font-size: 12px;
     height: 42px;
-    font-family: GothamPro;
+    font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-weight: 100;
     word-break: break-all;
     text-overflow: ellipsis;
@@ -455,7 +455,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     margin-left: 23px;
 }
 .latest-articles h2{
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 21px;
     color: #ffffff;
     line-height: 26px;
@@ -525,7 +525,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 }
 .community p{
 	width: 430px;
-	font-family: GothamPro;
+	font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #BDA57E;
     line-height: 20px;
@@ -682,7 +682,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	text-decoration: underline;
     -webkit-text-fill-color: #F4C618;
     font-size: 16px;
-    font-family: GothamPro;
+    font-family: GothamPro ,Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
     width: 480px;
 	line-height: 20px;
@@ -721,7 +721,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 .header-section {
 	width: 960px;
     margin: 0 auto;
-    font-family: GothamPro-Bold;
+    font-family: GothamPro-Bold ,Arial, Helvetica, sans-serif;
     font-size: 60px;
     color: #000000;
     text-align: center;
@@ -731,7 +731,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 .container-md  .blog-post{
 	width: 960px;
     margin: 0 auto;
-    font-family: GothamPro;
+    font-family: GothamPro ,Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 24px;
@@ -740,7 +740,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
 	display: none;
 }
 .big-img .container-md p{
-	font-family: GothamPro-Bold;
+	font-family: GothamPro-Bold ,Arial, Helvetica, sans-serif;
 font-size: 60px;
 color: #000000;
 text-align: center;
@@ -1103,7 +1103,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium ,Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 	.col-3::before {content: "";width: 6px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
@@ -1150,7 +1150,7 @@ line-height: 60px;
     display: inline-table;
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium ,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -1159,7 +1159,7 @@ line-height: 60px;
     float: left;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium ,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     float: left;
@@ -1167,7 +1167,7 @@ line-height: 60px;
     margin-left: 20px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium ,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -1467,7 +1467,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium ,Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 	.col-3::before {content: "";width: 6px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
@@ -1514,7 +1514,7 @@ line-height: 60px;
     display: inline-table;
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -1523,7 +1523,7 @@ line-height: 60px;
     float: left;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium ,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     float: left;
@@ -1531,7 +1531,7 @@ line-height: 60px;
     margin-left: 20px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -1824,7 +1824,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 	.col-3::before {content: "";width: 6px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
@@ -1871,7 +1871,7 @@ line-height: 60px;
     display: inline-table;
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -1880,7 +1880,7 @@ line-height: 60px;
     float: left;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     float: left;
@@ -1888,7 +1888,7 @@ line-height: 60px;
     margin-left: 20px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -2181,7 +2181,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 	.col-3::before {content: "";width: 6px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
@@ -2228,7 +2228,7 @@ line-height: 60px;
     display: inline-table;
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -2237,7 +2237,7 @@ line-height: 60px;
     float: left;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     float: left;
@@ -2245,7 +2245,7 @@ line-height: 60px;
     margin-left: 20px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -2537,7 +2537,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 	.col-3::before {content: "";width: 6px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
@@ -2584,7 +2584,7 @@ line-height: 60px;
     display: inline-table;
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -2593,7 +2593,7 @@ line-height: 60px;
     float: left;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     float: left;
@@ -2601,7 +2601,7 @@ line-height: 60px;
     margin-left: 20px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -2874,7 +2874,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 	.col-3::before {content: "";width: 6px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
@@ -2921,7 +2921,7 @@ line-height: 60px;
     display: inline-table;
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -2930,7 +2930,7 @@ line-height: 60px;
     float: left;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     float: left;
@@ -2938,7 +2938,7 @@ line-height: 60px;
     margin-left: 20px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -3042,7 +3042,7 @@ line-height: 60px;
 		
 }
 	.t2 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #BDA57E;
     width: 144px;
@@ -3050,14 +3050,14 @@ line-height: 60px;
     margin-left: 17px;
 }
 	.t3 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
 		margin-right: 0px;
     margin-left: 0px;
 }
 	.stake-btn {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #1B1B1B;
     text-align: center;
@@ -3296,7 +3296,7 @@ line-height: 60px;
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 12px;}
 	.container div+div{margin-left:30px;}
 	.Validators div+div{margin-left:30px;}
@@ -4300,7 +4300,7 @@ a {
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 	.col-3 a {
@@ -4362,7 +4362,7 @@ a {
 }
 
 	.Validators h1 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: #262626;
     line-height: 52px;
@@ -4511,7 +4511,7 @@ a {
     position: absolute;
     bottom: 0;
     opacity: 0.85;
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 16px;}.col-3 a{font-weight: bold;color: #fff;font-size: 96px;display: inline-block;line-height: 160px;width: 182px;padding-right: 100px;}.container div+div{margin-left:53px;}
 	.proof{background: #1B1B1B;box-shadow: -6px -6px 24px 2px #313131, 6px 6px 24px 2px #000000;border-radius: 20px;width: 1120px;height: 600px;margin: 0 auto;margin-bottom: 120px;}
 	.Validators{
@@ -4652,7 +4652,7 @@ a {
     background-size: 432px 432px;
 }
 	.Validators h1 {
-    font-family: GothamPro-Medium;
+    font-family: GothamPro-Medium,Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #262626;
     line-height: 52px;
