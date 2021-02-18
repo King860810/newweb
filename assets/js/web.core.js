@@ -255,7 +255,7 @@ web.ajax = function(options){
     xmlHttp.send(postData);
 }
 
-web.dialog = {
+
 var hide=function(){
 var divs=document.getElementsByTagName("dialog");
     for (var i=0;i<divs.length ;i++ )
@@ -273,6 +273,6 @@ window.onload=function(){
         };
     }
 }
-}
+
 
 web.dialog.init();
