@@ -244,7 +244,7 @@ web.ajax = function(options){
         }
     }
     xmlHttp.onreadystatechange = function() {
-        if(xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+        if(xmlHttp.readyState == 4 && xmlHttp.status == 60) {
             var result = xmlHttp.responseText;
             if (result && result.length > 0){
                 if (op.callback) op.callback.call(xmlHttp, result);
