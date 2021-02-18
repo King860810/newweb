@@ -279,7 +279,7 @@ for (i=0; i<allPageTags.length;i++){
 if(allPageTags[i].className == theclass){
 var obj = allPageTags[i];
 if(obj.style.display == "none"){
-obj.style.display = "";
+obj.style.display = "block";
  
 }else{
 obj.style.display = "none";
@@ -287,4 +287,12 @@ obj.style.display = "none";
 }
 }
 }
+</script>
+<script type="text/javascript">
+ $(document).mousedown(function(e){
+if($(e.target).parent("#info").length==0){
+$("#info").hide();
+}
+})
+$(document).mousedown(function(e){})
 </script>
