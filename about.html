@@ -54,7 +54,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</td>
 	</div>
 	<div class="col-3"><td id="5">
-		<a class="connect" href="#" target="dialog{{ site.about-team-links.id }}">
+		<a class="connect" href="#" target="dialog" onClick="spanClick();">
 		<div class="m1">
 			<div class="picture"></div>
 			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
@@ -63,7 +63,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</td>
 	</div>
 </div>
-<div class="dialog" >
+<div class="dialog" id="details1">
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">
@@ -103,3 +103,15 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 		</div>
 	</div>
 </div>
+<script>
+26 function spanClick(){
+27     var obj=document.getElementById("details1");
+28     var att=obj.getAttribute("open");
+29     if(att!="open"){
+30         obj.setAttribute("open","open");
+31         }
+32     else{
+33         obj.removeAttribute("open");
+34         }
+35     }
+36 </script>
