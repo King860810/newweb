@@ -9,6 +9,7 @@
     float: left;
     background: #262626;
     height: 642px;
+	position:fixed;
 }
 .main .content{
 	width: 828px;
