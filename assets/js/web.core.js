@@ -275,4 +275,3 @@ window.onload=function(){
 }
 
 
-web.dialog.init();
