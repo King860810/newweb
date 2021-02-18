@@ -17,7 +17,7 @@
 .main .menu h3{
 	font-size: 24px;
     color: #BDA57E;
-    font-family: GothamPro;
+    font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-weight: 100;
     margin-bottom: 29px;
     margin-top: 29px;
@@ -319,7 +319,7 @@
 	
 
 	.main .content .menu1 .tab .tt{
-		font-family: GothamPro;
+		font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #262626;
     line-height: 24px;
