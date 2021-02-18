@@ -315,4 +315,4 @@ web.dialog2 = {
     }
 }
 
-web.dialog.init();
+web.dialog2.init();
