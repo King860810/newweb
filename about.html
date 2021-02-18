@@ -16,7 +16,7 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 </div>
 <div class="team-main">
 	<h1>Team</h1>
-	<div class="col-3"><td id="1">
+	<div class="col-3">
 		<a class="connect" href="#" target="dialog">
 		<div class="m1" >
 			<div class="picture"></div>
@@ -24,46 +24,86 @@ We are proudly based in Berkeley, CA, home of the Free Speech Movement and are p
 			
 		</div>
 		</a>
-		</td>
+
 	</div>
-	<div class="col-3"><td id="2">
+	<div class="col-3">
+		<a class="connect" href="#" target="dialog1">
+		<div class="m1">
+			<div class="picture"></div>
+			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
+		</div>
+		</a>
+		
+	</div>
+	<div class="col-3">
 		<a class="connect" href="#" target="dialog">
 		<div class="m1">
 			<div class="picture"></div>
 			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
 		</div>
 		</a>
-		</td>
+		
 	</div>
-	<div class="col-3"><td id="3">
+	<div class="col-3">
 		<a class="connect" href="#" target="dialog">
 		<div class="m1">
 			<div class="picture"></div>
 			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
 		</div>
 		</a>
-		</td>
+	
 	</div>
-	<div class="col-3"><td id="4">
-		<a class="connect" href="#" target="dialog">
-		<div class="m1">
-			<div class="picture"></div>
-			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
-		</div>
-		</a>
-		</td>
-	</div>
-	<div class="col-3"><td id="5">
+	<div class="col-3">
 		<a class="connect" href="#" target="dialog" >
 		<div class="m1">
 			<div class="picture"></div>
 			<dt class="t5">Sunny<br><em>Aggarwal</em></dt><br><dt class="t6">Founder</dt>
 		</div>
 		</a>
-		</td>
+		
 	</div>
 </div>
 <div class="dialog" >
+	<div class="dialog-inner">
+		<div class="dialog-container">
+			<div class="dialog-heading">
+				<a class="close" href="javascript:web.dialog.close()">
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+			<div class="dialog-body{{ site.about-team-links.id }}">
+				<div class="dialog-text">
+					<img class="user-face" src="{{ '' | absolute_url }}/assets/img/picture.png" alt="">
+					<h1>Sunny <br><em>Aggarwal</em></h1>
+					<div class="social">
+						{%- if site.about-team-links.email -%}
+						<a href="mailto:{{ site.about-team-links.email }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-email.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.twitter -%}
+						<a href="https://twitter.com/{{ site.about-team-links.twitter }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-Twitter.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.keybase -%}
+						<a href="http://keybase.io//{{ site.about-team-links.keybase }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-keybase.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.gitHub -%}
+						<a href="{{ site.about-team-links.gitHub }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-GitHub.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.linkedin -%}
+						<a href="https://linkedin.com/in/{{ site.about-team-links.linkedin }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-LinkedIn.png"></a>
+						{%- endif -%}
+						{%- if site.about-team-links.webpage -%}
+						<a href="{{ site.about-team-links.webpage }}"><img class="team-icon" src="{{ '' | absolute_url }}/assets/img/Icon-webpage.png"></a>
+						{%- endif -%}
+					</div>
+					<p>Sunny has been involved with the blockchain space since 2015.  He is a core developer and researcher on the Tendermint/Cosmos projects, focusing on Proof of Stake and blockchain interoperability.  He also serves as an advisor/cofounder of Blockchain at Berkeley and co-hosts the Epicenter Podcast, one of the largest crypto podcasts with over 50K weekly listeners.</p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="dialog1" >
 	<div class="dialog-inner">
 		<div class="dialog-container">
 			<div class="dialog-heading">

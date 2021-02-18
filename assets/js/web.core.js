@@ -285,3 +285,34 @@ web.dialog = {
 }
 
 web.dialog.init();
+
+web.dialog2 = {
+    open:function(options){
+        var op = web.extend({url:''}, options);
+
+        if (op.url) {
+            web.ajax({url:op.url, callback:function(html){
+                document.querySelector('.dialog-body').innerHTML = message;
+            }});
+        }
+        web.addClass(document.body, 'modal-open');
+    },
+    close:function(){
+        web.removeClass(document.body, 'modal-open');
+    },
+    init:function(parent) {
+
+        var $p = parent || document.body,
+            $dialogLinks = $p.querySelectorAll('a[target=dialog2]');
+        for (var i=0; i<$dialogLinks.length; i++) {
+            web.bind($dialogLinks[i], 'click', function(event, data){
+                var url = $dialogLinks[data].href;
+                web.dialog.open({url: url});
+
+                return false;
+            }, i);
+        }
+    }
+}
+
+web.dialog.init();
