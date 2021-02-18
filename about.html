@@ -289,10 +289,12 @@ obj.style.display = "none";
 }
 </script>
 <script type="text/javascript">
- $(document).mousedown(function(e){
-if($(e.target).parent("#info").length==0){
-$("#info").hide();
-}
-})
-$(document).mousedown(function(e){})
+ document.addEventListener("click",clickHidden);//所有组件添加点击事件
+ 
+    var mn=document.getElementById('menu');//获取菜单节点，菜单id为menu
+    function clickHidden(eve)
+    {
+        if( eve.target.id!="menu" )//点击的如果不是菜单，菜单隐藏。如果是菜单，菜单显现
+    	mn.style.display="none";
+    }
 </script>
