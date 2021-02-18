@@ -29,7 +29,7 @@ social-network-links:
   keybase: yourname
 
 # --- About team user media links --- #
-about-team-links:
+about-team-links-1:
   email: "someone@example.com"
   twitter: daattali
   keybase: yourname
@@ -37,6 +37,30 @@ about-team-links:
   linkedin: daattali
   webpage: url
 
+about-team-links-2:
+  email: "someone@example.com"
+  twitter: daattali
+  keybase: yourname
+  gitHub: daattali
+  linkedin: daattali
+  webpage: url
+
+
+about-team-links-3:
+  email: "someone@example.com"
+  twitter: daattali
+  keybase: yourname
+  gitHub: daattali
+  linkedin: daattali
+  webpage: url
+  
+about-team-links-4:
+  email: "someone@example.com"
+  twitter: daattali
+  keybase: yourname
+  gitHub: daattali
+  linkedin: daattali
+  webpage: url
 # --- General options --- #
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
