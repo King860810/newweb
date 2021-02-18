@@ -9,7 +9,7 @@ web.bind(window, 'scroll', function(){
         winH = window.innerHeight || document.body.clientHeight;
     var header = document.getElementById('header');
 
-    if (scrollTop > winH * 0.2) {
+    if (scrollTop > winH * 0.06) {
         if (!web.hasClass(header, 'shrink-nav')) web.addClass(header, 'shrink-nav');
     } else {
         web.removeClass(header, 'shrink-nav');
