@@ -223,7 +223,7 @@
     overflow: hidden;
     box-shadow: none;
     position: relative;
-    margin-block: auto;
+    margin-block-end: auto;
     margin-top: 0;
     padding-left: 30px;
     padding-right: inherit;
