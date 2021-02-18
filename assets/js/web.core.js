@@ -269,7 +269,7 @@ window.onload=function(){
   for(var i = 0; i < a.length; i++){
         a[i].onclick = function(oEvent){
             oEvent = oEvent || event;hide();
-            document.getElementById("div"+this.id).style.display="block";
+            document.getElementById("dialog"+this.id).style.display="block";
         };
     }
 }
