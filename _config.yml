@@ -30,12 +30,12 @@ social-network-links:
 
 # --- About team user media links --- #
 about-team-links-1:
-  email: "someone@example.com"
-  twitter: daattali
-  keybase: yourname
-  gitHub: daattali
-  linkedin: daattali
-  webpage: url
+  email: "sunny@sikka.tech"
+  twitter: sunnya97
+#  keybase: yourname
+  gitHub: sunnya97
+  linkedin: sunnya97
+  webpage: http://www.sunnya97.com
 
 about-team-links-2:
   email: "someone@example.com"
