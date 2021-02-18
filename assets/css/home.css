@@ -3789,7 +3789,7 @@ a {
 
 
 
- .dialog {display:table;}
+ .dialog1, .dialog2, .dialog3, .dialog4 {display:table;}
  .dialog-backdrop {display:block;}
 /*.carousel-top{ margin-top:80px;}*/
 
