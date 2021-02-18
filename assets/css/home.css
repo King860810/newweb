@@ -70,7 +70,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     border-radius: 40px;
     line-height: 50px;
 	margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
 }
 .t4{
 	font-family: GothamPro,Arial, Helvetica, sans-serif;
@@ -1080,7 +1080,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -1098,7 +1098,7 @@ line-height: 60px;
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 40px;
+    margin-bottom: 40px;
     margin-left: 25px;
     position: absolute;
     bottom: 0;
@@ -1146,7 +1146,7 @@ line-height: 60px;
     border-radius: 32px;
     line-height: 30px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
     display: inline-table;
 }
 	.t2 {
@@ -1444,7 +1444,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -1462,7 +1462,7 @@ line-height: 60px;
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 40px;
+    margin-bottom: 40px;
     margin-left: 32px;
     position: absolute;
     bottom: 0;
@@ -1510,7 +1510,7 @@ line-height: 60px;
     border-radius: 32px;
     line-height: 30px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
     display: inline-table;
 }
 	.t2 {
@@ -1801,7 +1801,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -1819,7 +1819,7 @@ line-height: 60px;
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 40px;
+    margin-bottom: 40px;
     margin-left: 32px;
     position: absolute;
     bottom: 0;
@@ -1867,7 +1867,7 @@ line-height: 60px;
     border-radius: 32px;
     line-height: 30px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
     display: inline-table;
 }
 	.t2 {
@@ -2158,7 +2158,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -2176,7 +2176,7 @@ line-height: 60px;
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 40px;
+    margin-bottom: 40px;
     margin-left: 43px;
     position: absolute;
     bottom: 0;
@@ -2224,7 +2224,7 @@ line-height: 60px;
     border-radius: 32px;
     line-height: 30px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
     display: inline-table;
 }
 	.t2 {
@@ -2514,7 +2514,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -2532,7 +2532,7 @@ line-height: 60px;
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 40px;
+    margin-bottom: 40px;
     margin-left: 43px;
     position: absolute;
     bottom: 0;
@@ -2580,7 +2580,7 @@ line-height: 60px;
     border-radius: 32px;
     line-height: 30px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
     display: inline-table;
 }
 	.t2 {
@@ -2851,7 +2851,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -2869,7 +2869,7 @@ line-height: 60px;
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 40px;
+    margin-bottom: 40px;
     margin-left: 80px;
     position: absolute;
     bottom: 0;
@@ -2917,7 +2917,7 @@ line-height: 60px;
     border-radius: 32px;
     line-height: 30px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
     display: inline-table;
 }
 	.t2 {
@@ -3038,7 +3038,7 @@ line-height: 60px;
     border-radius: 40px;
     line-height: 50px;
     margin-top: 22px;
-    margin-block: 28px;
+    margin-bottom: 28px;
 		
 }
 	.t2 {
@@ -3276,7 +3276,7 @@ line-height: 60px;
     overflow: hidden;
     box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);
     position: relative;
-    margin-block: 80px;
+    margin-bottom: 80px;
     margin-top: 0;
 		  margin-right: 0px;
     margin-left: 0px;
@@ -3291,7 +3291,7 @@ line-height: 60px;
 	.col-3 .t1{width: 20px;
     color: #BDA57E;
     line-height: 10px;
-    margin-block: 48px;
+    margin-bottom: 48px;
     margin-left: 27px;
     position: absolute;
     bottom: 0;
@@ -4295,7 +4295,7 @@ a {
     width: 27px;
     color: #BDA57E;
     line-height: 13px;
-    margin-block: 39px;
+    margin-bottom: 39px;
     margin-left: 58px;
     position: absolute;
     bottom: 0;
@@ -4500,13 +4500,13 @@ a {
 	.container {width:1280px;}
 	.top{width: 1530px;background-position: 380px -260px;background-size: auto;}
 	.top .container .t0{margin-left: 80px;font-size: 60px;}
-	.col-3 {width: 21.4649%;height: 160px;line-height: 50px;text-align: center;background: #1B1B1B;position: relative;border-radius: 20px;overflow: hidden;box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);position: relative;margin-block: 140px;margin-top: 0;}
+	.col-3 {width: 21.4649%;height: 160px;line-height: 50px;text-align: center;background: #1B1B1B;position: relative;border-radius: 20px;overflow: hidden;box-shadow: 6px 6px 24px 2px rgba(0,0,0,0.50);position: relative;margin-bottom: 140px;margin-top: 0;}
 	.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {float:left;min-height:1px;padding-left:15px;padding-right:15px;position:relative;}
 	.col-3::before {content: "";width: 10px;height: 160px;position: absolute;top: 0;left: 0;background: #F4C618;overflow: hidden;}
 	.col-3 .t1{width: 20px;
     color: #BDA57E;
     line-height: 16px;
-    margin-block: 53px;
+    margin-bottom: 53px;
     margin-left: 90px;
     position: absolute;
     bottom: 0;
