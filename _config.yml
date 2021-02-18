@@ -30,6 +30,7 @@ social-network-links:
 
 # --- About team user media links --- #
 about-team-links-1:
+  photoUrl: sunny-aggarwal.jpg 
   email: "sunny@sikka.tech"
   twitter: sunnya97
 #  keybase: yourname
