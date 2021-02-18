@@ -292,7 +292,7 @@ web.dialog2 = {
 
         if (op.url) {
             web.ajax({url:op.url, callback:function(html){
-                document.querySelector('.dialog-body').innerHTML = message;
+                document.querySelector('.dialog-body2').innerHTML = message;
             }});
         }
         web.addClass(document.body, 'modal-open');
