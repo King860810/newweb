@@ -677,6 +677,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     text-align: center;
     margin-bottom: 60px;
     margin-left: 15px;
+	padding: 0 19px 0 19px;
 }
 .Straightedge .web-link{
 	text-decoration: underline;
@@ -1046,6 +1047,7 @@ line-height: 60px;
     margin-bottom: 30px;
     margin-left: 5px;
     margin-right: 5px;
+	line-height:inherit;
 }
 	
 	.container {
@@ -1410,6 +1412,7 @@ line-height: 60px;
     margin-bottom: 60px;
     margin-left: 5px;
     margin-right: 5px;
+	line-height:inherit;
 }
 	
 	.container {
@@ -1767,6 +1770,7 @@ line-height: 60px;
     margin-bottom: 60px;
     margin-left: 5px;
     margin-right: 5px;
+	line-height:inherit;
 }
 	
 	.container {
@@ -2124,6 +2128,7 @@ line-height: 60px;
     margin-bottom: 60px;
     margin-left: 5px;
     margin-right: 5px;
+	line-height:inherit;
 }
 	
 	.container {
@@ -2480,6 +2485,7 @@ line-height: 60px;
     margin-bottom: 60px;
     margin-left: 5px;
     margin-right: 5px;
+	line-height:inherit;
 }
 	
 	.container {
@@ -2817,6 +2823,7 @@ line-height: 60px;
     margin-bottom: 60px;
     margin-left: 5px;
     margin-right: 5px;
+	line-height:inherit;
 }
 	
 	.container {
@@ -3039,6 +3046,7 @@ line-height: 60px;
     line-height: 50px;
     margin-top: 22px;
     margin-bottom: 28px;
+	
 		
 }
 	.t2 {
@@ -4348,6 +4356,7 @@ a {
     margin-right: 0px;
     background: url(../img/validators-img.png);
     background-size: 310px 310px;
+	line-height:inherit;
 }
 	.dwi .proof-left {
     margin-left: 380px;
