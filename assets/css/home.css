@@ -144,7 +144,7 @@ hr {height:0;margin-top:10px;margin-bottom:10px;border:0;border-top:solid 1px #3
     background: #F4C618;
     border: none;
 	margin-bottom: 16px;
-	line-height:inherit;
+	line-height:1;
 }
 .more-btn{
     width: 170px;
