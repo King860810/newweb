@@ -1633,7 +1633,7 @@ overflow:hidden; resize:none;
 }
 	.main .menu .akash:hover {
     width: 240px;
-    height: 40px;
+    height: 36px;
 }
 	.main .menu .selected .persistence {
     color: #fff;
@@ -1651,7 +1651,7 @@ overflow:hidden; resize:none;
 }
 	.main .menu .persistence:hover {
     width: 240px;
-    height: 40px;
+    height: 36px;
 }
 	.main .menu {
     width: 240px;
