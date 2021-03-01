@@ -1555,7 +1555,7 @@ overflow:hidden; resize:none;
 }
 	.main .menu .selected {
     width: 240px;
-    height: 40px;
+    height: 36px;
     border-right: 4px solid #F4C618;
     border-radius: 0px;
     background: #f4c61800;
