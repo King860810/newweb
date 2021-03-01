@@ -1584,7 +1584,7 @@ overflow:hidden; resize:none;
 	.main .menu .selected .kava {
     color: #fff;
         width: 240px;
-    height: 40px;
+    height: 36px;
     padding-left: 80px;
     background: #ffffff0f url(../img/icon-k-pressed.png) no-repeat;
     background-position: left 18.3% top 50%;
@@ -1602,7 +1602,7 @@ overflow:hidden; resize:none;
 	.main .menu .selected .straightedge {
     color: #fff;
         width: 240px;
-    height: 40px;
+    height: 36px;
     padding-left: 80px;
     background: #ffffff0f url(../img/icon-s-pressed.png) no-repeat;
     background-position: left 18.3% top 50%;
@@ -1620,7 +1620,7 @@ overflow:hidden; resize:none;
 	.main .menu .selected .akash {
     color: #fff;
         width: 240px;
-    height: 40px;
+    height: 36px;
     padding-left: 80px;
         background: #ffffff0f url(../img/icon-a-pressed.png) no-repeat;
     background-position: left 18.3% top 50%;
@@ -1638,7 +1638,7 @@ overflow:hidden; resize:none;
 	.main .menu .selected .persistence {
     color: #fff;
         width: 240px;
-    height: 40px;
+    height: 36px;
     padding-left: 80px;
         background: #ffffff0f url(../img/icon-p-pressed.png) no-repeat;
     background-position: left 18.3% top 50%;
