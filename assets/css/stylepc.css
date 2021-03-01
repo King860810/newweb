@@ -213,7 +213,7 @@
     padding-left: initial;
     padding-right: unset;
 }
-.top-half .col-3,.top-half .col-4,.top-half .col-6{
+.top-half .col-3{
 	width: 24%;
     height: 112px;
     line-height: 32px;
@@ -229,6 +229,18 @@
     padding-left: 30px;
     padding-right: inherit;
    
+}
+.top-half .col-4,.top-half .col-6{
+height: 112px;
+    line-height: 32px;
+    background: none;
+    position: relative;
+    border-radius: initial;
+    overflow: hidden;
+    box-shadow: none;
+    position: relative;
+    margin-block-end: auto;
+    margin-top: 0;
 }
 .top-half .col-3::before{
 	content: "";
