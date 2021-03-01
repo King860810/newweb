@@ -1880,6 +1880,12 @@ overflow:hidden; resize:none;
 }
 }
 @media (min-width: 1200px) {
+	.col-4{
+		    width: 33.33333333%;
+	}
+	.col-6{
+		 width: 50%;
+	}
 	.ulmenu1{
 		
 	}
