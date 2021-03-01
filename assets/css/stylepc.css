@@ -20,8 +20,8 @@
     color: #BDA57E;
     font-family: GothamPro,Arial, Helvetica, sans-serif;
     font-weight: 100;
-    margin-bottom: 29px;
-    margin-top: 29px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .positionIicon{
@@ -1549,9 +1549,9 @@ overflow:hidden; resize:none;
 @media (min-width: 768px){
 	.main .menu ul li {
     height: auto;
-    height: 40px;
+    height: 36px;
     line-height: 40px;
-		    margin-left: 0px;
+	margin-left: 0px;
 }
 	.main .menu .selected {
     width: 240px;
@@ -1561,7 +1561,7 @@ overflow:hidden; resize:none;
     background: #f4c61800;
 }
 	.cosmos, .kava, .straightedge, .akash, .persistence {
-    height: 40px;
+    height: 36px;
 }
 	.main .menu .selected .cosmos {
     color: #fff;
@@ -1768,7 +1768,8 @@ overflow:hidden; resize:none;
 	.main .menu {
     width: 240px;
     max-width: 414px;
-    height: 642px;
+    height: 280px;
+	border-radius: 10px;
 }
 	.main .menu ul {
     display: none;
