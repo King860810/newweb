@@ -1597,7 +1597,7 @@ overflow:hidden; resize:none;
 }
 	.main .menu .kava:hover {
     width: 240px;
-    height: 40px;
+    height: 36px;
 }
 	.main .menu .selected .straightedge {
     color: #fff;
