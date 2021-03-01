@@ -350,9 +350,12 @@ height: 112px;
 	font-size: 16px;
     color: #fff;
     width: 480px;
-    line-height: 20px;
+    line-height: 28px;
     margin-left: 28px;
 	}
+.main .content .menu1 .tab .tt2 a{
+	color: #F4C618;
+}
 .main .content .menu1 dt{
 	font-size: 16px;
     color: #fff;
