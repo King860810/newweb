@@ -1659,7 +1659,8 @@ overflow:hidden; resize:none;
 	.main .menu {
     width: 240px;
     max-width: 414px;
-    height: 642px;
+    height: 280px;
+    border-radius: 10px;
 }
 	.main .menu ul {
     display: block !important;
