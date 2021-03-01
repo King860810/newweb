@@ -1553,7 +1553,7 @@ overflow:hidden; resize:none;
 	.main .menu ul li {
     height: auto;
     height: 36px;
-    line-height: 40px;
+    line-height: 36px;
 	margin-left: 0px;
 }
 	.main .menu .selected {
