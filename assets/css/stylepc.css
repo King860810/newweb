@@ -644,6 +644,7 @@ overflow:hidden; resize:none;
 		width: 100%;
     max-width: 320px;
 		height: auto;
+		z-index: 999;
 	}
 	.main .menu ul{
 		display: inline-flex !important;
@@ -668,7 +669,7 @@ overflow:hidden; resize:none;
     height: 100%;
     display: grid;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 170px;
 	}
 	.main .content .menu1 .tab .tt{
 	width: 80%;
@@ -845,6 +846,7 @@ overflow:hidden; resize:none;
 		width: 100%;
     max-width: 360px;
 		height: auto;
+		z-index: 999;
 	}
 	.main .menu ul{
 		display: inline-flex !important;
@@ -869,7 +871,7 @@ overflow:hidden; resize:none;
     height: 100%;
     display: grid;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 170px;
 	}
 	.main .content .menu1 .tab .tt{
 	width: 80%;
@@ -1071,7 +1073,7 @@ overflow:hidden; resize:none;
     height: 100%;
     display: grid;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 170px;
 	}
 	.main .content .menu1 .tab .tt{
 	width: 80%;
