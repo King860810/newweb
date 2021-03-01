@@ -213,7 +213,7 @@
     padding-left: initial;
     padding-right: unset;
 }
-.top-half .col-3{
+.top-half .col-3,.top-half .col-4,.top-half .col-6{
 	width: 24%;
     height: 112px;
     line-height: 32px;
