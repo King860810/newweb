@@ -1615,7 +1615,7 @@ overflow:hidden; resize:none;
 }
 	.main .menu .straightedge:hover {
     width: 240px;
-    height: 40px;
+    height: 36px;
 }
 	.main .menu .selected .akash {
     color: #fff;
